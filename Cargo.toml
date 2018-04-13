@@ -1,0 +1,14 @@
+[package]
+name = "callsigner"
+version = "0.0.0"
+authors = ["Mirate, Milo A <mmirate@gatech.edu>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+structopt = "0.2.7"
+regex = "0.2.10"
+itertools = "0.7.8"
+serde = "1.0.37"
+serde_json = "1.0.13"
